@@ -23,37 +23,40 @@
   </head>
 
   <body class="list-style-none">
-    <header  class="header-border">
-      <!-- Banner superior navegacion -->
-      <div class="topmenu container">
-        <a href="#" class="logo-link">WebStudio</a>
+    <header class="header-border main-container">
+      <div class="container flex-container">
+        <div class="topmenu">
+          <!-- Banner superior navegacion -->
+          <a href="#" class="logo-link">WebStudio</a>
 
-        <nav class="text-basic-color toplinks-container">
-          <ul class="toplinks">
-            <li><a href="./index.html" target="_self">Studio</a></li>
-            <li  class="toplinks-current"><a href="#" target="_self">Portfolio</a></li>
-            <li><a href="./contacts">Contacts</a></li>
+          <nav class="text-basic-color toplinks-container">
+            <ul class="toplinks">
+              <li><a href="./index.html" target="_self">Studio</a></li>
+              <li class="toplinks-current">
+                <a href="#" target="_self">Portfolio</a>
+              </li>
+              <li><a href="./contacts">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="address-toplinks">
+            <li class="address-links ">
+              <a href="mailto:info@devstudio.com">
+                <svg class="icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope">  </use>
+                </svg>
+                <span>info@devstudio.com</span>
+              </a>
+            </li>
+            <li class="address-links ">
+              <a href="Tel:+380961111111">
+                <svg class="icon" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                  <span>+1 212-772-4150</span>
+              </a>
+            </li>
           </ul>
-        </nav>
-
-        <ul class="address-toplinks">
-          <li class="address-links ">
-            <a href="mailto:info@devstudio.com">
-              <svg class="icon" width="16" height="12">
-                <use href="./images/icons.svg#icon-envelope">  </use>
-              </svg>
-              <span>info@devstudio.com</span>
-            </a>
-          </li>
-          <li class="address-links ">
-            <a href="Tel:+380961111111">
-              <svg class="icon" width="10" height="16">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg>
-                <span>+1 212-772-4150</span>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
 
@@ -70,8 +73,6 @@
             <li><button type="button" class="portfolio-button-item">Marketing</button></li>
           </ul>
           <!-- TARJETAS  -->
-<!-- *TODO:  there is a shadow effect when hovering over any part of the card -->
-<!-- *FIXME: No logro que haga hover sobre tooda la tarjeta. Solo me coge la imagen -->
           <ul class="portfolio-cards">
             <li class="portfolio-card-item">
                 <img
