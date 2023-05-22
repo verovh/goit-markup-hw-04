@@ -179,7 +179,7 @@ body{
 }
 
 .banner-top-title{
-    background: url('/images/tittle-img.jpg') rgba(47, 48, 58, 0.4);
+    background: url('./images/tittle-img.jpg') rgba(47, 48, 58, 0.4);
     background-color: var(--background-banner);
     background-size: cover;
     background-repeat: no-repeat;
@@ -520,7 +520,6 @@ body{
 
 
 
-
 /* ------------------- */
 /* ---- PORTFOLIO ---- */
 
@@ -560,7 +559,6 @@ body{
 .portfolio-card-item{
     margin: 5px;
 }
-
 
 .portfolio-card-item:hover{
     border: 1px solid #EEEEEE;
