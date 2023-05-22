@@ -178,7 +178,7 @@ body{
 }
 
 .banner-top-title{
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('/images/tittle-img.jpg');
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/tittle-img.jpg');
     background-color: var(--background-banner);
     background-size: cover;
     background-repeat: no-repeat;
