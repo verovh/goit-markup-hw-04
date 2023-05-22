@@ -372,6 +372,7 @@ body{
     border-radius: 50%;
     height: 44px;
     width: 44px;
+    fill: var(--vsg-icons-default);
 }
 
 .whoweare-icon-container:hover{
@@ -379,6 +380,7 @@ body{
     border-radius: 50%;
     height: 44px;
     width: 44px;
+    fill: white;
 }
 
 .whoweare-icon-container:focus{
@@ -386,20 +388,8 @@ body{
     border-radius: 50%;
     height: 44px;
     width: 44px;
-}
-
-.whoweare-icon{
-    fill: var(--vsg-icons-default);
-}
-
-.whoweare-icon:hover{
     fill: white;
 }
-
-.whoweare-icon:focus{
-    fill: white;
-}
-
 
 
 /* ------ CLIENTS ------ */
